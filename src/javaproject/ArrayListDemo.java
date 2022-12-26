@@ -8,7 +8,9 @@ public class ArrayListDemo {
 		list.add("snehal");
 		list.add("achal");
 		list.add("kiran");
-		System.out.println(list);
+		for (String s : list) {
+			System.out.println(s);
+		}
 	}
 
 }
